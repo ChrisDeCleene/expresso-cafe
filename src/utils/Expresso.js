@@ -2,8 +2,7 @@ import camelcaseKeys from './camelcase-keys/index';
 import 'whatwg-fetch';
 
 const Expresso = {};
-// Change for production
-const baseUrl = "http://https://expresso-cafe.herokuapp.com/api";
+const baseUrl = "http://localhost:4000/api";
 
 Expresso.getEmployees = () => {
   const url = `${baseUrl}/employees`;
